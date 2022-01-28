@@ -29,7 +29,7 @@ router.use((req, res, next) => {
 })
 
 // Routes
-router.use('/', routes);
+router.use('/api', routes);
 
 // Error handling
 router.use((req, res, next) => {
@@ -41,5 +41,5 @@ router.use((req, res, next) => {
 
 // Server
 const httpServer = http.createServer(router);
-const PORT: any = process.env.PORT ?? 6161;
+const PORT: any = process.env.PORT ?? 2022;
 httpServer.listen(PORT, () => console.log(`The server is running on port ${PORT}`));
