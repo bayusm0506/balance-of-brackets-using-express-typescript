@@ -12,12 +12,12 @@ const Bracket = async (req: Request, res: Response, next: NextFunction) => {
         let char = stck[stck.length - 1];
 
         // If you encounter a starting bracket, push it in to the stack
-        if(s[i] == "(")
+        if (s[i] == "(")
             stck.push(s[i])
 
         // Pop the opening bracket off the stack,
         // if there is a corresponding closing bracket in the string
-        if ((char == "(" && s[i] == ")")) 
+        if ((char == "(" && s[i] == ")"))
             stck.pop(); //  remove the last element from an array and to return that element.
 
         else true
