@@ -60,6 +60,8 @@ JSON :
     "input" : "()"
 }
 ```
+#### EXAMPLE OUTPUT
+![enter image description here](https://github.com/bayusm0506/brackets/blob/master/output/contoh-1.png)
 
 ```
 #### APP INFO
